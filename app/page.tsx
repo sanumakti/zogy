@@ -60,8 +60,10 @@ export default function HomePage() {
               </div>
 
               <div className="flex items-center space-x-4">
-                <Button size="sm" variant="ghost">
-                  <img src="/twitter-icon.png" alt="Twitter" className="w-5 h-5" />
+                <Button size="sm" variant="ghost" asChild>
+                  <a href="https://x.com/Zogythefrog" target="_blank" rel="noopener noreferrer">
+                    <img src="/twitter-icon.png" alt="Twitter" className="w-5 h-5" />
+                  </a>
                 </Button>
                 <Button size="sm" variant="ghost">
                   <img src="/telegram-icon.webp" alt="Telegram" className="w-5 h-5" />
@@ -178,7 +180,16 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <img src="/twitter-icon.png" alt="Twitter" className="w-8 h-8" />
                 </div>
-                <CardTitle>Twitter</CardTitle>
+                <CardTitle>
+                  <a
+                    href="https://x.com/Zogythefrog"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Twitter
+                  </a>
+                </CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>Follow us for updates and memes</CardDescription>
@@ -212,8 +223,10 @@ export default function HomePage() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <Button size="sm" variant="ghost">
-                <img src="/twitter-icon.png" alt="Twitter" className="w-5 h-5" />
+              <Button size="sm" variant="ghost" asChild>
+                <a href="https://x.com/Zogythefrog" target="_blank" rel="noopener noreferrer">
+                  <img src="/twitter-icon.png" alt="Twitter" className="w-5 h-5" />
+                </a>
               </Button>
               <Button size="sm" variant="ghost">
                 <img src="/telegram-icon.webp" alt="Telegram" className="w-5 h-5" />
